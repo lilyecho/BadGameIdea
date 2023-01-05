@@ -58,3 +58,26 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+UserSettings
+
+### FMOD Unity Integration ###
+# Never ignore DLLs in the FMOD subfolder, so make sure that the FMOD-folder is in the correct path.
+!/[Aa]ssets/Plugins/FMOD//.dll
+!/[Aa]ssets/Plugins/FMOD/**/lib/*
+
+# Don't ignore images and gizmos used by FMOD in the Unity Editor
+!/[Aa}ssets/Gizmos/FMOD/
+!/[Aa}ssets/Editor Default Resources/FMOD/*
+
+# Ignore the Cache-file since it is updated locally either way
+/[Aa]ssets/Plugins/FMOD/Cache/*
+
+# Ignore bank files in the StreamingAssets folder.
+/[Aa]ssets/StreamingAssets/**/*.bank
+/[Aa]ssets/StreamingAssets/**/*.bank.meta
+# If the source bank files are kept outside of the StreamingAssets folder then these can be ignored.
+
+# Log-files
+fmod.log
+fmod_editor.log
+/fmod_editor.log
