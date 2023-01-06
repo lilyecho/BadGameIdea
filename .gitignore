@@ -81,3 +81,6 @@ UserSettings
 fmod.log
 fmod_editor.log
 /fmod_editor.log
+Assets/FMODBanks/.DS_Store
+Assets/.DS_Store
+.DS_Store
